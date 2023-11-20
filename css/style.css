@@ -121,6 +121,11 @@ hr {
   background-color: #ffffff;
 }
 
+.row {
+  align-content: center;
+  justify-content: space-evenly;
+}
+
 .col-2 {
   border-right: #000000 solid 1px;
   border-right: 25px;
@@ -130,6 +135,7 @@ hr {
 .footer {
   display: flex;
   background-color: #F2DFEB;
+  margin-top: 20px;
 }
 
 .col-3 {
@@ -142,4 +148,22 @@ hr {
 }
 .col-3 .gruop-list {
   font-family: raleway;
+}
+
+.footer-icons {
+  width: 135px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.footer-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+border-threeicons .col-3 {
+  border-right: 2px solid #000000;
 }/*# sourceMappingURL=style.css.map */
